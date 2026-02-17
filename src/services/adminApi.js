@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://127.0.0.1:9000/api/admin/v1/"
+  baseURL: "https://api.admin.nextcart.com/nextcart_Web_V1/public/api/admin/v1/"
 });
